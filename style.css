@@ -2,12 +2,30 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
-  background: pink;
+  margin: 3rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cars {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.nav {
+  background: rgb(231, 231, 231);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+}
+
+.nav_link {
+  padding: 1rem;
+  color: #242424;
 }
