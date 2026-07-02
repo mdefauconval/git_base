@@ -1,3 +1,13 @@
+img {
+  width: 100%;
+}
+
 body {
   background: pink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
